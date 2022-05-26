@@ -1,11 +1,15 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import React from "react";
+import CampsiteList from "./features/campsites/CampsitesList";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
 	return (
 		<div className="App">
-			<h1>Welcome</h1>
+			<Header />
+			<CampsiteList />
+			<Footer />
 		</div>
 	);
 }
